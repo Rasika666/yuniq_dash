@@ -1,0 +1,87 @@
+
+
+.side-bar {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.sale-dashboard{
+  flex: 0 0 80%;
+  max-width: 80%;
+}
+/* table scroll */
+.my-custom-scrollbar {
+  position: relative;
+  height: 31vh;
+  overflow: auto;
+  border: 2.5px solid #6c757d;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+i{
+  cursor: pointer;
+  margin: 0 0.3rem;
+}
+.bg-black {
+  background-color: black;
+}
+
+/***********************************
+* image upload css
+*************************************/
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+#img-upload {
+  width: 100%;
+}
+/***********************************
+* image upload css ends
+*************************************/
+/* dash board table head */
+.btn-tab {
+   border-radius: .5rem .5rem 0 0; 
+}
+.w-10{
+  width: 7.9rem;
+}
+
+/* *************************************
+* table common css
+***************************************/
+.table-bordered td, .table-bordered th {
+    border: 0;
+}
+.table-bordered tr {
+  border: 1.5px solid #6c757d;
+}
+.table td {
+  padding: .5rem;
+}
+
+/* *************************************
+* table  tbl-sale-item css
+***************************************/
+#tbl-sale-item tr td:nth-child(2) {
+  text-align: center;
+    font-weight: 680;
+    font-size: 1.05rem;
+
+}
